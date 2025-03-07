@@ -1,0 +1,2 @@
+com.nageoffer.homeycombcoupon.framework.config.WebAutoConfiguration
+com.nageoffer.homeycombcoupon.framework.config.IdempotentConfiguration

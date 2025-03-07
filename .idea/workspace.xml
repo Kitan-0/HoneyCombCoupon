@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ba84703-1052-47f8-9167-2127a948dd46" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2tWiWPDGHSsBAcyEYeSdAUrQFHR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/data/HoneyCombCoupon",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.16298342",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "2703923f62ea063a24425e473f7130ad",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code_java\OneCoupon\merchant-admin\src\main\java\com\geigeoffer\onecoupon\merchant\admin\dto\resp" />
+      <recent name="E:\code_java\OneCoupon\merchant-admin\src\main\java\com\geigeoffer\onecoupon\merchant\admin\dto\req" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MerchantAdminApplication (1)">
+    <configuration name="MockCouponTemplateDataTests.testEnumName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="honeycombcoupon-merchant-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geigeoffer.onecoupon.merchant.admin.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geigeoffer.onecoupon.merchant.admin.template" />
+      <option name="MAIN_CLASS_NAME" value="com.geigeoffer.onecoupon.merchant.admin.template.MockCouponTemplateDataTests" />
+      <option name="METHOD_NAME" value="testEnumName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MerchantAdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="homeycombcoupon-merchant-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.geigeoffer.honeycombcoupon.merchant.admin.MerchantAdminApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geigeoffer.honeycombcoupon.merchant.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MerchantAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="honeycombcoupon-merchant-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.geigeoffer.onecoupon.merchant.admin.MerchantAdminApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geigeoffer.onecoupon.merchant.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MerchantAdminApplication (1)" />
+        <item itemvalue="JUnit.MockCouponTemplateDataTests.testEnumName" />
+        <item itemvalue="Spring Boot.MerchantAdminApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ba84703-1052-47f8-9167-2127a948dd46" name="Changes" comment="" />
+      <created>1740474262480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740474262480</updated>
+      <workItem from="1740474263474" duration="11308000" />
+      <workItem from="1740547346540" duration="27343000" />
+      <workItem from="1740742886120" duration="35309000" />
+      <workItem from="1741076454138" duration="9160000" />
+      <workItem from="1741329738439" duration="776000" />
+      <workItem from="1741330567541" duration="137000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,44 @@
+dataSources:
+  ds_1:
+    dataSourceClassName: com.zaxxer.hikari.HikariDataSource #数据源完整类名
+    driverClassName: com.mysql.jdbc.Driver
+    jdbcUrl: jdbc:mysql://192.168.153.128:3306/one_coupon_0?useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: Wang20001010
+  ds_2:
+    dataSourceClassName: com.zaxxer.hikari.HikariDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    jdbcUrl: jdbc:mysql://192.168.153.128:3306/one_coupon_0?useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: Wang20001010
+
+rules:
+  - !SHARDING
+    tables: # 需要分片的数据库表集合
+      t_coupon_template: # 优惠券模板表
+        # 真实存在数据库中的物理表
+        actualDataNodes: ds_${0..1}.t_coupon_template_${0..15}
+        databaseStrategy: # 分库策略
+          standard: # 单分片键分库
+            shardingColumn: shop_number # 分片键
+            shardingAlgorithmName: coupon_template_database_mod # 库分片算法名称，对应 rules[0].shardingAlgorithms
+        tableStrategy: # 分表策略
+          standard: # 单分片键分表
+            shardingColumn: shop_number # 分片键
+            shardingAlgorithmName: coupon_template_table_mod # 表分片算法名称，对应 rules[0].shardingAlgorithms
+    shardingAlgorithms: # 分片算法定义集合
+      coupon_template_database_mod: # 优惠券分库算法定义
+        type: CLASS_BASED # 基于 Hash 方式分片
+        props:
+          algorithmClassName: com.nageoffer.homeycombcoupon.merchant.admin.dao.sharding.DBHashModShardingAlgorithm
+          sharding-count: 16 # 一共有 2 个库
+          strategy: standard
+      coupon_template_table_mod: # 优惠券分表算法定义
+        type: CLASS_BASED # 基于 Hash 方式分片
+        props:
+          algorithmClassName: com.nageoffer.homeycombcoupon.merchant.admin.dao.sharding.TableHashModShardingAlgorithm
+          strategy: standard # 分片类型，单字段分片
+
+props:
+  # 配置 ShardingSphere 默认打印 SQL 执行语句
+  sql-show: true
